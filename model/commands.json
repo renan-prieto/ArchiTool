@@ -1,0 +1,76 @@
+{
+  "Python": {
+    "FastAPI": "fastapi new {project}",
+    "Django": "django-admin startproject {project}",
+    "Flask": null,
+    "PyTorch": null,
+    "PyQt": null
+  },
+  "PHP": {
+    "Laravel": "composer create-project laravel/laravel {project}",
+    "Symfony": "symfony new {project} --webapp",
+    "CodeIgniter": "composer create-project codeigniter4/appstarter {project}",
+    "CakePHP": "composer create-project --prefer-dist cakephp/app {project}"
+  },
+  "Ruby": {
+    "Ruby on Rails": "rails new {project}",
+    "Sinatra": null,
+    "Hanami": "hanami new {project}",
+    "Grape": null
+  },
+  "C/C++": {
+    "Qt": null,
+    "wxWidgets": null,
+    "GTK": null,
+    "JUCE": null,
+    "Unreal Engine": null
+  },
+  "Rust": {
+    "Actix Web": null,
+    "Axum": null,
+    "Rocket": null,
+    "Tauri": "npm create tauri-app@latest {project}",
+    "Bevy": null
+  },
+  "JavaScript": {
+    "React": "npm create vite@latest {project} -- --template react",
+    "Vue.js": "npm create vue@latest {project}",
+    "Angular": "ng new {project}",
+    "Svelte": "npx sv create {project}",
+    "Astro": "npm create astro@latest {project}"
+  },
+  "NodeJS": {
+    "Express.js": "npx express-generator {project}",
+    "NestJS": "nest new {project}",
+    "Fastify": "npm init fastify {project}",
+    "Koa": null,
+    "Hono": "npm create hono@latest {project}"
+  },
+  "TypeScript": {
+    "Next.js": "npx create-next-app@latest {project}",
+    "NestJS": "nest new {project}",
+    "Angular": "ng new {project}",
+    "Nuxt": "npm create nuxt@latest {project}",
+    "SvelteKit": "npx sv create {project}"
+  },
+  "React": {
+    "Next.js": "npx create-next-app@latest {project}",
+    "React Native": "npx @react-native-community/cli@latest init {project}",
+    "Expo": "npx create-expo-app@latest {project}",
+    "Gatsby": "npx gatsby new {project}",
+    "React Router": "npx create-react-router@latest {project}"
+  },
+  "Java": {
+    "Spring Boot": "spring init {project}",
+    "Jakarta EE": null,
+    "Quarkus": "quarkus create app {project}",
+    "Micronaut": "mn create-app {project}",
+    "Hibernate": null
+  },
+  "Zig": {
+    "Jetzig": null,
+    "Zap": null,
+    "httpz": null,
+    "Mach": null
+  }
+}

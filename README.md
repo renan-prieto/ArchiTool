@@ -38,72 +38,72 @@ A ferramenta pretende oferecer suporte a diferentes linguagens de programação 
 - 🟡 Em desenvolvimento.
 - ✅ Implementado.
 
-#### Python ❌ 
-  - ❌ FastAPI
-  - ❌ Django
+#### Python 🟡
+  - 🟡 FastAPI
+  - 🟡 Django
   - ❌ Flask
   - ❌ PyTorch
   - ❌ PyQt
 
-#### PHP ❌ 
-  - ❌ Laravel
-  - ❌ Symfony
-  - ❌ CodeIgniter
-  - ❌ CakePHP
+#### PHP 🟡
+  - 🟡 Laravel
+  - 🟡 Symfony
+  - 🟡 CodeIgniter
+  - 🟡 CakePHP
 
-#### Ruby ❌ 
-  - ❌ Ruby on Rails
+#### Ruby 🟡
+  - 🟡 Ruby on Rails
   - ❌ Sinatra
-  - ❌ Hanami
+  - 🟡 Hanami
   - ❌ Grape
 
-#### C/C++ ❌ 
+#### C/C++ 🟡 
   - ❌ Qt
   - ❌ wxWidgets
   - ❌ GTK
   - ❌ JUCE
   - ❌ Unreal Engine
 
-#### Rust ❌ 
+#### Rust 🟡
   - ❌ Actix Web
   - ❌ Axum
   - ❌ Rocket
-  - ❌ Tauri
+  - 🟡 Tauri
   - ❌ Bevy
 
-#### JavaScript ❌ 
-  - ❌ React
-  - ❌ Vue.js
-  - ❌ Angular
-  - ❌ Svelte
-  - ❌ Astro
+#### JavaScript 🟡 
+  - 🟡 React
+  - 🟡 Vue.js
+  - 🟡 Angular
+  - 🟡 Svelte
+  - 🟡 Astro
 
-#### Node.js ❌ 
-  - ❌ Express.js
-  - ❌ NestJS
-  - ❌ Fastify
+#### Node.js 🟡
+  - 🟡 Express.js
+  - 🟡 NestJS
+  - 🟡 Fastify
   - ❌ Koa
-  - ❌ Hono
+  - 🟡 Hono
 
-#### TypeScript ❌ 
-  - ❌ Next.js
-  - ❌ NestJS
-  - ❌ Angular
-  - ❌ Nuxt
-  - ❌ SvelteKit
+#### TypeScript 🟡
+  - 🟡 Next.js
+  - 🟡 NestJS
+  - 🟡 Angular
+  - 🟡 Nuxt
+  - 🟡 SvelteKit
 
-#### React ❌ 
-  - ❌ Next.js
-  - ❌ React Native
-  - ❌ Expo
-  - ❌ Gatsby
-  - ❌ React Router
+#### React 🟡 
+  - 🟡 Next.js
+  - 🟡 React Native
+  - 🟡 Expo
+  - 🟡 Gatsby
+  - 🟡 React Router
 
-#### Java ❌ 
-  - ❌ Spring Boot
+#### Java 🟡 
+  - 🟡 Spring Boot
   - ❌ Jakarta EE
-  - ❌ Quarkus
-  - ❌ Micronaut
+  - 🟡 Quarkus
+  - 🟡 Micronaut
   - ❌ Hibernate
 
 #### Zig ❌ 

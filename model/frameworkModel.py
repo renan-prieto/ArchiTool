@@ -90,5 +90,6 @@ class FrameworkModel:
                 "Mach"
             ]
         }
-    
-    
+
+    def commands(self, framework):
+        pass
