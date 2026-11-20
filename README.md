@@ -122,5 +122,5 @@ A ferramenta busca transformar uma tarefa repetitiva em um processo simples, rá
 
 ---
 
-**Project Architect** — Menos tempo configurando, mais tempo desenvolvendo.
+**ArchiTool** — Menos tempo configurando, mais tempo desenvolvendo.
 # ArchiTool
