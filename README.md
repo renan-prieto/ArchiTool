@@ -28,15 +28,6 @@ Além disso, terá suporte aos frameworks mais utilizados de cada linguagem, per
 | Objetivo            | Automação de estruturas de projetos               |
 | Formato             | Ferramenta de linha de comando (CLI) inicialmente |
 
-## Requisitos Iniciais
-
-- [ ] Gerar automaticamente estruturas de diretórios.
-- [ ] Gerar arquivos iniciais de acordo com a linguagem escolhida.
-- [ ] Disponibilizar modelos de arquivos com exemplos de implementação.
-- [ ] Permitir a seleção de frameworks.
-- [ ] Organizar os arquivos de acordo com a arquitetura selecionada.
-- [ ] Facilitar a configuração inicial de novos projetos.
-
 ## Suporte a Linguagens e Frameworks
 
 A ferramenta pretende oferecer suporte a diferentes linguagens de programação e seus respectivos frameworks.
@@ -47,75 +38,75 @@ A ferramenta pretende oferecer suporte a diferentes linguagens de programação 
 - 🟡 Em desenvolvimento.
 - ✅ Implementado.
 
-#### Python
+#### Python ❌ 
   - ❌ FastAPI
   - ❌ Django
   - ❌ Flask
   - ❌ PyTorch
   - ❌ PyQt
 
-#### PHP
+#### PHP ❌ 
   - ❌ Laravel
   - ❌ Symfony
   - ❌ CodeIgniter
   - ❌ CakePHP
 
-#### Ruby
+#### Ruby ❌ 
   - ❌ Ruby on Rails
   - ❌ Sinatra
   - ❌ Hanami
   - ❌ Grape
 
-#### C/C++
+#### C/C++ ❌ 
   - ❌ Qt
   - ❌ wxWidgets
   - ❌ GTK
   - ❌ JUCE
   - ❌ Unreal Engine
 
-#### Rust
+#### Rust ❌ 
   - ❌ Actix Web
   - ❌ Axum
   - ❌ Rocket
   - ❌ Tauri
   - ❌ Bevy
 
-#### JavaScript
+#### JavaScript ❌ 
   - ❌ React
   - ❌ Vue.js
   - ❌ Angular
   - ❌ Svelte
   - ❌ Astro
 
-#### Node.js
+#### Node.js ❌ 
   - ❌ Express.js
   - ❌ NestJS
   - ❌ Fastify
   - ❌ Koa
   - ❌ Hono
 
-#### TypeScript
+#### TypeScript ❌ 
   - ❌ Next.js
   - ❌ NestJS
   - ❌ Angular
   - ❌ Nuxt
   - ❌ SvelteKit
 
-#### React
+#### React ❌ 
   - ❌ Next.js
   - ❌ React Native
   - ❌ Expo
   - ❌ Gatsby
   - ❌ React Router
 
-#### Java
+#### Java ❌ 
   - ❌ Spring Boot
   - ❌ Jakarta EE
   - ❌ Quarkus
   - ❌ Micronaut
   - ❌ Hibernate
 
-#### Zig
+#### Zig ❌ 
   - ❌ Jetzig
   - ❌ Zap
   - ❌ httpz

@@ -1,0 +1,2 @@
+class FrameworkPresenter:
+    pass
