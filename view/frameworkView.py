@@ -4,9 +4,9 @@ class FrameworkView:
             print(f"{lan}. {languages[lan]}")
         return input("Escolha sua Linguagem: ")
         
-    def framework(self, language, frameworks):
+    def select_framework(self, frameworks):
         count = 0
-        for f in frameworks[language]:
+        for f in frameworks:
             count += 1
             print(f"{count}. {f}")
         print("0. Sem Framework")

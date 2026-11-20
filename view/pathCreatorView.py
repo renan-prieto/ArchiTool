@@ -7,9 +7,6 @@ class PathCreatorView:
         print("4. MVVM-C")
         print("5. VIPER")
         return input("Escolha uma opcao: ")
-    
-    def extensao(self):
-        return input("Escolha a linguagem: ")
 
     def repositorio(self):
         return input("Nome do projeto: ")

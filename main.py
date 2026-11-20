@@ -2,17 +2,30 @@ from model.pathCreatorModel import PathCreatorModel
 from presenter.pathCreatorPresenter import PathCreatorPresenter
 from view.pathCreatorView import PathCreatorView
 
+from model.frameworkModel import FrameworkModel
+from view.frameworkView import FrameworkView
+from presenter.frameworkPresenter import FrameworkPresenter
+
 def main():
-    model = PathCreatorModel()
-    view = PathCreatorView()
-    presenter = PathCreatorPresenter(view, model)
+    pathModel = PathCreatorModel()
+    pathView = PathCreatorView()
+    pathPresenter = PathCreatorPresenter(pathView, pathModel)
 
-    while True:
-        repositorio = view.repositorio()
-        opcao = view.menu_inicial()
-        extensao = view.extensao()
-        if opcao == 0: break
-        presenter.create_arch(opcao, extensao, repositorio)
+    frameworkModel = FrameworkModel()
+    frameworkView = FrameworkView()
+    frameworkPresenter = FrameworkPresenter(frameworkView, frameworkModel)
+    
+    repositorio = pathView.repositorio()
 
+    frameworkPresenter.handle_choices()
+    # execução do framework para a criação do projeto
+    
+    opcao = pathView.menu_inicial()
+
+    pathPresenter.create_arch(opcao, repositorio)
+
+
+
+    
 if __name__ == "__main__":
     main()
