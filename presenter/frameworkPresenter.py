@@ -13,6 +13,6 @@ class FrameworkPresenter:
 
     def choose_frameworks(self, lang):
         frame = self.view.select_framework(self.lan_frame[lang])
-        return self.model.languages_frameworks()
+        return self.model.framework(lang, frame)
 
     # LEMBRAR DE VER SE ESTÁ CHAMANDO A FUNÇAO DUAS VEZES

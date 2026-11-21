@@ -23,20 +23,22 @@ class FrameworkModel:
         with open("model/languages.json", "r", encoding="utf-8") as file:
             datas = json.load(file)
 
-        print("language ",language)
-
         x = list(datas)
-        print("language ",language)
-        print("x ", x)
         
         y = x[int(language)]
-        print("y ", y)
         return datas[y]
 
-    def framework(self, frame):
+    def framework(self, language, framework):
         '''
-        retornar o framework na qual foi escolhido
+        retornar o comando do framework na qual foi escolhido
         '''
-        with open("model/languages.json", "r", encoding="utf-8") as file:
+        with open("model/commands.json", "r", encoding="utf-8") as file:
             datas = json.load(file)
         
+        languages = list(datas[language])
+        framework = languages[int(framework)]
+        
+        return datas[language][framework]
+        
+
+        # return datas[language][framework]
