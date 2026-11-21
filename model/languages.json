@@ -1,0 +1,14 @@
+{
+  "Python": "py",
+  "PHP": "php",
+  "Ruby": "ru",
+  "C": "c",
+  "C++": "cpp",
+  "Rust": "rs",
+  "JavaScript": "js",
+  "NodeJS": "njs",
+  "TypeScript": "ts",
+  "React":["jsx", "tsx"],
+  "Java": "java",
+  "Zig": "zig"
+}

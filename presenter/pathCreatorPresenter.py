@@ -27,7 +27,7 @@ class PathCreatorPresenter:
             for path in self.arch:
                 self.model.path = f"{repositorio}/{path}"
                 self.model.create_path()
-                self.model.create_archive(f"example{path[0:-1].capitalize()}.{example}", f"./{repositorio}/{path}")
+                self.model.create_archive(f"example{path[0:-1].capitalize()}.{extensao}", f"./{repositorio}/{path}")
 
                 if not self.model.validate_path():
                     self.model.create_path()

@@ -7,25 +7,25 @@ from view.frameworkView import FrameworkView
 from presenter.frameworkPresenter import FrameworkPresenter
 
 def main():
-    pathModel = PathCreatorModel()
-    pathView = PathCreatorView()
-    pathPresenter = PathCreatorPresenter(pathView, pathModel)
+    # pathModel = PathCreatorModel()
+    # pathView = PathCreatorView()
+    # pathPresenter = PathCreatorPresenter(pathView, pathModel)
 
     frameworkModel = FrameworkModel()
     frameworkView = FrameworkView()
     frameworkPresenter = FrameworkPresenter(frameworkView, frameworkModel)
     
-    repositorio = pathView.repositorio()
+    # repositorio = pathView.repositorio()
 
-    frameworkPresenter.handle_choices()
-    # execução do framework para a criação do projeto
-    
-    opcao = pathView.menu_inicial()
-
-    pathPresenter.create_arch(opcao, repositorio)
-
-
+    language, extencion = frameworkPresenter.choose_languages()
+    # LEMBRAR DE VER SE ESTÁ CHAMANDO A FUNÇAO DUAS VEZES
 
     
+    # opcao = pathView.menu_inicial()
+
+    # pathPresenter.create_arch(opcao, extencion, repositorio)
+
+
+
 if __name__ == "__main__":
     main()
